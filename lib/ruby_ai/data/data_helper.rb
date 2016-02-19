@@ -3,8 +3,6 @@ module DataHelper
 
     class Qualitative
       class << self
-        def normalize_qualitative()
-        end
 
         def normalize_ordinal (data_set, upper_bound, lower_bound)
           num_data_points = data_set.length
